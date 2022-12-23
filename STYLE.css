@@ -1,0 +1,41 @@
+:root {
+  --beige: #F5F5DC; /* Beige color code */
+  --dark-beige: #BCB88A; /* Dark beige color code */
+  --light-beige: #FFF8DC; /* Light beige color code */
+  --darker-beige: #5F5541; /*Darker beige color code*/
+  --soft-blue:#7e95be; /*Soft blue color code*/
+
+}
+
+body {
+  background-color: var(--beige); /* Set the background color to beige */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--darker-beige); /* Set the heading colors to dark beige */
+}
+
+p {
+  color: var(--darker-beige); /* Set the paragraph colors to light beige */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  
+}
+
+}
+
+tr:nth-child(even) {
+  background-color: #7e95be;
+}
+
+.future {
+  padding-right: 20px;
+}
